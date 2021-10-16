@@ -12,11 +12,19 @@ import Contact from './Contact'
 const Body = () => {
 
   return(
-      <div>
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+      <div className="body-container">
+        <section id='About'>
+          <About />
+        </section>
+         <section id='Projects'>
+          <Projects />
+        </section>
+         <section id='Skills'>
+          <Skills />
+        </section>
+         <section id='Contact'>
+          <Contact />
+        </section>
       </div>
   )
 }
