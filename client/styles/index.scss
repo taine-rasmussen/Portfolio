@@ -2,3 +2,15 @@ body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+  margin: 0 auto;
+}
