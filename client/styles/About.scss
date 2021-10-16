@@ -1,0 +1,39 @@
+.about-container {
+  padding-bottom: 48px;
+}
+
+.about-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-image {
+  height: 420px;
+}
+
+.about-info {
+  font-size: 1.5rem;
+}
+
+.info-name {
+  font-size: 2rem;
+  color: brown;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-image {
+    height: 280px;
+  }
+  .about-info {
+    font-size: 1.25rem;
+  }
+  .info-name {
+    font-size: 1.625;
+  }
+}
