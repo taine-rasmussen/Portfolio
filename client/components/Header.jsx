@@ -18,7 +18,7 @@ const Header = () => {
             <WebMenu />
           </div>
           <div className='header-mobile-menu'>
-            <div>
+            <div onClick={() => setMenuOpen(!menuOpen)}>
               <i className="fi-rr-apps"></i>
             </div>
             {menuOpen ? <MobileMenu /> : null}
