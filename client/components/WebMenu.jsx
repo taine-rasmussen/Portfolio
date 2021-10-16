@@ -1,4 +1,5 @@
 import React from 'react';
+import Web from '../styles/Web.scss'
 
 const WebMenu = () => {
 
