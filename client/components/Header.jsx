@@ -18,10 +18,10 @@ const Header = () => {
             <WebMenu />
           </div>
           <div className='header-mobile-menu'>
-            <div>
-              <i className="fi-rr-apps"></i>
+            <div onClick={() => setMenuOpen(!menuOpen)}>
+              <i className="fi-rr-apps header-menu-icon"></i>
             </div>
-            {menuOpen ? <MobileMenu /> : null}
+            {menuOpen ? <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> : null}
           </div>
         </div>
     </div>
