@@ -21,7 +21,7 @@ const Header = () => {
             <div onClick={() => setMenuOpen(!menuOpen)}>
               <i className="fi-rr-apps"></i>
             </div>
-            {menuOpen ? <MobileMenu /> : null}
+            {menuOpen ? <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> : null}
           </div>
         </div>
     </div>
