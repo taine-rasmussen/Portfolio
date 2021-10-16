@@ -1,3 +1,32 @@
-h1 {
-  color: red;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  align-items: center;
+  position: relative;
+}
+
+.header-menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header-menu-icon {
+  font-size: 1.5rem;
+}
+
+.header-mobile-menu {
+  display: none;
+}
+
+.header-web-menu {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 2.25rem;
+  font-weight: 800;
 }
