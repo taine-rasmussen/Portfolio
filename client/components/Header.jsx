@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Header.scss'
+
+// Components
 import WebMenu from './WebMenu'
+import MobileMenu from './MobileMenu'
 
 
 const Header = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return(
     <div className="header-container">
@@ -13,7 +18,10 @@ const Header = () => {
             <WebMenu />
           </div>
           <div className='header-mobile-menu'>
-            <i className="fi-rr-apps"></i>
+            <div>
+              <i className="fi-rr-apps"></i>
+            </div>
+            {menuOpen ? <MobileMenu /> : null}
           </div>
         </div>
     </div>
