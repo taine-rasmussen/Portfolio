@@ -1,11 +1,11 @@
 import React from 'react'
+import Mobile from '../styles/Mobile.scss'
 
-
-const MobileMenu = () => {
+const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
 	return(
-		<div>
-			mobileMenu
+		<div className="mobile-container">
+			<i class="fi fi-rr-cross-circle"></i>
 		</div>
 	)
 }
