@@ -11,6 +11,18 @@ html {
   display: flex;
   flex-direction: column;
   width: 70%;
-  max-width: 70%;
   margin: 0 auto;
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 1024px) {
+  .app {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .app {
+    width: 100%;
+  }
 }
