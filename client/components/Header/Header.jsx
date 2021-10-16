@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Header.scss'
 
 // Components
-import WebMenu from './WebMenu'
+import WebMenu from '../WebMenu'
 import MobileMenu from './MobileMenu'
 
 
