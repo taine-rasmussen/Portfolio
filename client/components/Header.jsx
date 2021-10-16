@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Header.scss'
 import WebMenu from './WebMenu'
-import MobileMenu from './MobileMenu'
+
 
 const Header = () => {
 
@@ -13,7 +13,7 @@ const Header = () => {
             <WebMenu />
           </div>
           <div className='header-mobile-menu'>
-            <MobileMenu />
+            <i className="fi-rr-apps"></i>
           </div>
         </div>
     </div>
