@@ -5,7 +5,9 @@ const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
 	return(
 		<div className="mobile-container">
-			<i class="fi fi-rr-cross-circle"></i>
+			<div className="mobile-close-icon" onClick={() => setMenuOpen(!menuOpen)}>
+				<i className="fi fi-rr-cross-circle"></i>
+			</div>
 		</div>
 	)
 }
