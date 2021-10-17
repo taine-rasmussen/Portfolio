@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/Project.scss'
+
 
 // components
 import ProjectCard from './ProjectCard'
@@ -34,7 +36,7 @@ const Projects = () => {
 
    return(
        <div className='projects-container'>
-         <label>Projects</label>
+         <label className='section-title'>Projects</label>
          <div>
             {projectData.map((project) => {
                return <ProjectCard project={project}/>
