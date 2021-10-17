@@ -1,5 +1,7 @@
 import React from 'react';
 import { AiFillGithub } from "react-icons/ai";
+import '../styles/Project.scss'
+
 
 
 const ProjectCard = ({ project }) => {
@@ -11,7 +13,7 @@ const ProjectCard = ({ project }) => {
            <div className="project-card-link-container">
                <a className="project-card-link" href={project.github}>
                   <div className="project-card-link-btn">
-                     <AiFillGithub /> Github repo 
+                     <i><AiFillGithub /></i> Github repo 
                   </div>
                </a>
            </div>
