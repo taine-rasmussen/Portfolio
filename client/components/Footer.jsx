@@ -1,9 +1,15 @@
 import React from 'react';
 import '../styles/Footer.scss'
 
+// Components
+import Separator from './Separator'
+
 const Footer = () => {  
   return(
-    <h1>Footer</h1>
+      <div>
+        <Separator />
+        Footer
+      </div>
   )
 }
 

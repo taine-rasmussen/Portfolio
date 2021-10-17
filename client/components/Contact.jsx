@@ -1,10 +1,14 @@
 import React from 'react';
 
+// Components
+import Separator from './Separator'
+
 const Contact = () => {
 
    return (
       <div>
-         Contact component
+         <Separator />
+         Contact
       </div>
    )
 }
