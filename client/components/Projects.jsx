@@ -41,7 +41,7 @@ const Projects = () => {
          <label className='section-title'>Projects</label>
          <div>
             {projectData.map((project) => {
-               return <ProjectCard project={project}/>
+               return <ProjectCard project={project} key={project.id}/>
             })}
          </div>
 
