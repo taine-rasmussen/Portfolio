@@ -16,6 +16,10 @@
   font-size: 1.5rem;
 }
 
+.mobile-close-icon:hover {
+  transform: scale(1.05);
+}
+
 .mobile-options-container {
   display: flex;
   flex-direction: column;
@@ -30,6 +34,10 @@
   font-size: 1.5rem;
   margin: 12px 0px;
   display: flex;
+}
+
+.mobile-option:hover {
+  transform: scale(1.05);
 }
 
 .mobile-option a {

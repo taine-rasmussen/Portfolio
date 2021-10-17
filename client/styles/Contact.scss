@@ -28,9 +28,17 @@
   border-radius: 4px;
 }
 
+.contact-right:hover {
+  transform: scale(1.05);
+}
+
 .contact-right a {
   text-decoration: none;
   color: #000;
+}
+
+.download-icon {
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 720px) {
