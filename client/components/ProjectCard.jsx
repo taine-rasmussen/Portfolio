@@ -4,7 +4,6 @@ import { AiFillGithub } from "react-icons/ai";
 
 const ProjectCard = ({ project }) => {
 
-
    return(
      <div className="project-card-container">
         <div className="project-card-info">
@@ -12,9 +11,15 @@ const ProjectCard = ({ project }) => {
            <div className="project-card-link-container">
                <a className="project-card-link" href={project.github}>
                   <div className="project-card-link-btn">
-                     <AiFillGithub />
+                     <AiFillGithub /> Github repo 
                   </div>
                </a>
+           </div>
+           <p>{project.about}</p>
+           <div className="project-card-tag-container">
+              {project.tags.map((tag) => {
+                 return <div className="project-card-tag">{tag}</div>
+              })}
            </div>
         </div>
          <img className="project-card-image" src={project.image} alt={project.title}/>
