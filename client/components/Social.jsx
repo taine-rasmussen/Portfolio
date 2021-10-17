@@ -5,24 +5,31 @@ const Social = () => {
    const socialData = [
       {
          platform: 'Instagram',
-         icon: 'public/instagram.png',
+         icon: 'instagram.png',
          link: 'https://www.instagram.com/tainerasmussen/'
       },
       {
          platform: 'Github',
-         icon: 'public/github-sign.png',
+         icon: 'github-sign.png',
          link: 'https://github.com/taine-rasmussen'
       },
       {
          platform: 'Linkedin',
-         icon: 'public/linkedin.png',
+         icon: 'linkedin.png',
          link: 'https://www.linkedin.com/in/taine-rasmussen-a66a86184/'
       },
    ]
 
    return(
-      <div>
-
+      <div className='social-container'>
+         {socialData.map((item) => {
+            return (
+               <a href={item.link}> 
+                  <div className='social-icon-container'>
+                     <img  className='social-icon' src={item.icon} alt='soical icon'/>
+                  </div>
+               </a>
+            )})}
       </div>
    )
 }

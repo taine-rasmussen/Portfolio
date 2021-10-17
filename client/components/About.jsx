@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/About.scss'
 
+// Components
+import Social from './Social'
+
 const About = () => {
 
    return(
@@ -15,7 +18,9 @@ const About = () => {
                <img className="about-image" src='aboutImage.png' alt='people working'/>
             </div>
          </div>
-         <div className="about-bottom"></div>
+         <div className="about-bottom">
+            <Social />
+         </div>
       </div>
    )
 }
