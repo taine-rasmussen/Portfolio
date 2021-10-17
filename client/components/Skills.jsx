@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/Skills.scss'
+
 
 // Components
 import Separator from './Separator'
@@ -10,12 +12,12 @@ const Skills = () => {
          type: 'Frontend',
          list: [
             {
-               name: 'React.js',
-               icon: <i className="devicon-react-original colored"></i>
-            },
-            {
                name: 'JavaScript',
                icon: <i className="devicon-javascript-plain colored"></i>
+            },
+            {
+               name: 'React.js',
+               icon: <i className="devicon-react-original colored"></i>
             },
             {
                name: 'Redux',
