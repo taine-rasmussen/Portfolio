@@ -26,7 +26,7 @@ const Social = () => {
       <div className='social-container'>
          {socialData.map((item) => {
             return (
-               <a href={item.link}> 
+               <a href={item.link} key={item.platform}> 
                   <div className='social-icon-container'>
                      <img  className='social-icon' src={item.icon} alt='soical icon'/>
                   </div>

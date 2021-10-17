@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/About.scss'
 
-// Components
-import Social from './Social'
 
 const About = () => {
 
@@ -17,9 +15,6 @@ const About = () => {
             <div className="about-image-container">
                <img className="about-image" src='aboutImage.png' alt='people working'/>
             </div>
-         </div>
-         <div className="about-bottom">
-            <Social />
          </div>
       </div>
    )

@@ -36,12 +36,12 @@ const Projects = () => {
    ]
 
    return(
-       <div className='projects-container'>
+       <div className='projects-container' id='project'>
           <Separator />
          <label className='section-title'>Projects</label>
          <div>
             {projectData.map((project) => {
-               return <ProjectCard project={project}/>
+               return <ProjectCard project={project} key={project.id}/>
             })}
          </div>
 

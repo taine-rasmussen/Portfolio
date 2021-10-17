@@ -9,12 +9,12 @@ import Social from './Social'
 const Contact = () => {
 
    return (
-      <div className="contact">
+      <div className="contact" id='contact'>
          <Separator />
          <label className="section-title">Contact</label>
          <div className="contact-container">
             <div className="contact-left">
-               <p>What to get in touch? Contact me on any of these platforms</p>
+               <p>Want to get in touch? Contact me on any of these platforms</p>
                <Social />
             </div>
             <div className="contact-right">
