@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Contact.scss'
 
 
 // Components
@@ -10,6 +11,7 @@ const Contact = () => {
    return (
       <div className="contact">
          <Separator />
+         <label className="section-title">Contact</label>
          <div className="contact-container">
             <div className="contact-left">
                <p>What to get in touch? Contact me on any of these platforms</p>
