@@ -18,9 +18,6 @@ const About = () => {
                <img className="about-image" src='aboutImage.png' alt='people working'/>
             </div>
          </div>
-         <div className="about-bottom">
-            <Social />
-         </div>
       </div>
    )
 }
