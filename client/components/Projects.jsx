@@ -1,5 +1,8 @@
 import React from 'react';
 
+// components
+import ProjectCard from './ProjectCard'
+
 const Projects = () => {
 
    return(
