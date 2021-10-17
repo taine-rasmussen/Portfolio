@@ -4,10 +4,7 @@ import '../styles/Footer.scss'
 
 const Footer = () => {  
   return(
-      <div>
-
-        Footer\
-      </div>
+      <div className="footer">Taine Rasmussen</div>
   )
 }
 
