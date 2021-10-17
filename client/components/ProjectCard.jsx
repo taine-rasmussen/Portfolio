@@ -2,8 +2,6 @@ import React from 'react';
 import { AiFillGithub } from "react-icons/ai";
 import '../styles/Project.scss'
 
-
-
 const ProjectCard = ({ project }) => {
 
    return(
