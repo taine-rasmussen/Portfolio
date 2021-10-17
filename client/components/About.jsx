@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/About.scss'
 
-// Components
-import Social from './Social'
 
 const About = () => {
 

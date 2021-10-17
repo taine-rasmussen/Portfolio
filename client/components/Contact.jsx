@@ -9,7 +9,7 @@ import Social from './Social'
 const Contact = () => {
 
    return (
-      <div className="contact">
+      <div className="contact" id='contact'>
          <Separator />
          <label className="section-title">Contact</label>
          <div className="contact-container">

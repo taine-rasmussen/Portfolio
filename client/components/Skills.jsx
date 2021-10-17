@@ -49,7 +49,7 @@ const Skills = () => {
    ]
 
    return(
-      <div className="skills-container">
+      <div className="skills-container" id='skills'>
          <Separator />
          <label className="section-title">Skills</label>
             <div className='skills-list-container'>
