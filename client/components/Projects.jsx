@@ -4,6 +4,7 @@ import '../styles/Project.scss'
 
 // components
 import ProjectCard from './ProjectCard'
+import Separator from './Separator'
 
 const Projects = () => {
 
@@ -36,6 +37,7 @@ const Projects = () => {
 
    return(
        <div className='projects-container'>
+          <Separator />
          <label className='section-title'>Projects</label>
          <div>
             {projectData.map((project) => {
