@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Project.scss'
 
-
 // components
 import ProjectCard from './ProjectCard'
 import Separator from './Separator'
