@@ -1,11 +1,13 @@
 .about-container {
-  padding-bottom: 48px;
+  padding-bottom: 200px;
 }
 
 .about-top-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 6rem;
+  margin-bottom: -6rem;
 }
 
 .about-image {
@@ -13,17 +15,20 @@
 }
 
 .about-info {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--light);
 }
 
 .info-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--bright);
-  font-weight: bold;
+  font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
+  .about-container {
+    padding-bottom: 270px;
+  }
   .about-top-container {
     flex-direction: column;
     justify-content: center;

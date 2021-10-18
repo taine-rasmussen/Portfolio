@@ -19,7 +19,7 @@ const Projects = () => {
       {
          id: 2,
          title: 'Calculator',
-         about: 'Is the convenience of your phone Calculator too much? Next time you need to triple check your own math just to make sure clone this repo, npm i & launch localhost3000',
+         about: 'Can you beleive there is a calculator in this portfolio',
          tags: ['React.js'],
          github: 'https://github.com/taine-rasmussen/Calc',
          image: 'calc.png',

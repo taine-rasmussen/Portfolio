@@ -7,8 +7,6 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
 
-
-
 const Body = () => {
 
   return(
