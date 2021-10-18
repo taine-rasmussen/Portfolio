@@ -15,6 +15,11 @@
 }
 
 .webmenu-option:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--muted);
+}
+
+.webmenu-option:hover {
   transform: scale(1.05);
 }
 
