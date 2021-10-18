@@ -7,7 +7,11 @@
 .webmenu-option {
   font-size: 1.25rem;
   font-weight: 700;
-  margin-right: 16px;
+  margin-right: 26px;
+}
+
+.webmenu-option i {
+  color: var(--bright);
 }
 
 .webmenu-option:hover {
@@ -17,14 +21,15 @@
 .webmenu-option a {
   text-decoration: none;
   display: flex;
-  color: #000;
+  color: var(--light);
+
   align-items: center;
 }
 
 .option-icon {
   display: flex;
   align-items: center;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .webmenu-option:last-child {
