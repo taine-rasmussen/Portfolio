@@ -17,6 +17,10 @@
   font-size: 1.5rem;
 }
 
+.menu-icon i:hover {
+  transform: scale(1.05);
+}
+
 .header-mobile-menu {
   display: none;
 }
@@ -29,7 +33,7 @@
   display: flex;
   font-size: 1.75rem;
   font-weight: 800;
-  color: brown;
+  color: var(--bright);
 }
 
 @media only screen and (max-width: 720px) {

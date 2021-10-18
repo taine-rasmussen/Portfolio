@@ -24,6 +24,7 @@
 .project-card-title {
   font-size: 1.25rem;
   font-weight: 600;
+  color: var(--muted);
 }
 
 .project-card-tag-container {
@@ -34,7 +35,7 @@
 
 .project-card-tag {
   padding: 4px 8px;
-  background-color: aquamarine;
+  background-color: var(--muted);
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
@@ -54,6 +55,7 @@
   border-radius: 4px;
   font-size: 1rem;
   margin-right: 6px;
+  color: var(--muted);
 }
 
 .project-card-link-btn i {

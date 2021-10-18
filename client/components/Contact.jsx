@@ -14,7 +14,7 @@ const Contact = () => {
          <label className="section-title">Contact</label>
          <div className="contact-container">
             <div className="contact-left">
-               <p>Want to get in touch? Contact me on any of these platforms</p>
+               <p>Want to get in touch? Contact me on any of these platforms.</p>
                <Social />
             </div>
             <div className="contact-right">
