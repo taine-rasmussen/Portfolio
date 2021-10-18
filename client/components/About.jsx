@@ -13,10 +13,14 @@ const About = () => {
                <br /> I love experimenting with the web.
             </div>
             <div className="about-image-container">
-               <img className="about-image" src='aboutImage.png' alt='people working'/>
+               <img className="about-image" src='typing.gif' alt='people working'/>
             </div>
          </div>
       </div>
+
+
+
+
    )
 }
 
