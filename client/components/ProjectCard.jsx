@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
         <div className="project-card-info">
            <label className="project-card-title">{project.title}</label>
            <div className="project-card-link-container">
-               <a className="project-card-link" href={project.github}>
+               <a className="project-card-link" target="_blank" href={project.github}>
                   <div className="project-card-link-btn">
                      <i><AiFillGithub /></i> Github repo 
                   </div>
