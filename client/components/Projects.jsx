@@ -18,11 +18,11 @@ const Projects = () => {
       },
       {
          id: 2,
-         title: 'Calculator',
-         about: 'Can you beleive there is a calculator in this portfolio',
-         tags: ['React.js'],
-         github: 'https://github.com/taine-rasmussen/Calc',
-         image: 'calc.png',
+         title: 'Chat App',
+         about: 'Add contacts and create conversations with this simple messaging clone. Built using Socket.io and experimenting using custom react Hooks and Contexts',
+         tags: ['React.js', 'React-bootstrap', 'Socket.io'],
+         github: 'https://github.com/taine-rasmussen/not-fb-messenger',
+         image: 'chat-app.png',
       },
       {
          id: 3,
