@@ -27,8 +27,8 @@ const Projects = () => {
       {
          id: 3,
          title: 'Oogle',
-         about: 'A google clone built using React, Tailwindcss and rapidAPI. Users can search the web in dark or light mode viewing results and images',
-         tags: ['React.js', 'rapidAPI', 'Taildwindcss'],
+         about: 'A google clone built using React, Tailwindcss and RapidAPI. Users can search the web in dark or light mode viewing results and images',
+         tags: ['React.js', 'RapidAPI', 'Taildwindcss'],
          github: 'https://github.com/taine-rasmussen/not-google',
          image: 'oogle.png',
       }
