@@ -26,11 +26,11 @@ const Projects = () => {
       },
       {
          id: 3,
-         title: 'Tic-Tac-Toe',
-         about: 'A recreation of the classic Tic-Tac-Toe game',
-         tags: ['React.js'],
-         github: 'https://github.com/taine-rasmussen/Tic-Tac-Toe',
-         image: 'tic-tac-toe.png',
+         title: 'Oogle',
+         about: 'A google clone built using React, Tailwindcss and rapidAPI. Users can search the web in dark or light mode viewing results and images',
+         tags: ['React.js', 'rapidAPI', 'Taildwindcss'],
+         github: 'https://github.com/taine-rasmussen/not-google',
+         image: 'oogle.png',
       }
    ]
 
