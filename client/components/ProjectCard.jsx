@@ -2,6 +2,8 @@ import React from 'react';
 import { AiFillGithub } from "react-icons/ai";
 import '../styles/Project.scss'
 
+import Separator from './Separator'
+
 const ProjectCard = ({ project }) => {
 
    return(
