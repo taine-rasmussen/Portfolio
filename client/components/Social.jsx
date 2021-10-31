@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Social.scss'
-
+import { BsInstagram as Instagram } from 'react-icons/Bs';
+import { BsGithub as Github } from 'react-icons/Bs'
+import { BsLinkedin as Linkedin } from 'react-icons/Bs'
 
 const Social = () => {
 
@@ -22,17 +24,25 @@ const Social = () => {
       },
    ]
 
+   const instagramIcon =  <Instagram className="social-icon"/>
+   const githubIcon = <Github className="social-icon"/>
+   const linkedinIcon  = <Linkedin className="social-icon"/>            
+
    return(
+      <>
       <div className='social-container'>
          {socialData.map((item) => {
             return (
                <a href={item.link} key={item.platform} target="_blank"> 
                   <div className='social-icon-container'>
-                     <img  className='social-icon' src={item.icon} alt='soical icon'/>
+                     { item.platform === 'Linkedin' ? linkedinIcon : null}
+                     { item.platform === 'Github' ? githubIcon : null}
+                     { item.platform === 'Instagram' ? instagramIcon : null}
                   </div>
                </a>
             )})}
       </div>
+      </>
    )
 }
 
