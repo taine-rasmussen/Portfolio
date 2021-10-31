@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Social.scss'
-import { BsInstagram as Instagram } from 'react-icons/Bs';
-import { BsGithub as Github } from 'react-icons/Bs'
-import { BsLinkedin as Linkedin } from 'react-icons/Bs'
+import { BsInstagram } from 'react-icons/Bs';
+import { BsGithub } from 'react-icons/Bs'
+import { BsLinkedin } from 'react-icons/Bs'
 
 const Social = () => {
 
@@ -24,9 +24,9 @@ const Social = () => {
       },
    ]
 
-   const instagramIcon =  <Instagram className="social-icon"/>
-   const githubIcon = <Github className="social-icon"/>
-   const linkedinIcon  = <Linkedin className="social-icon"/>            
+   const instagramIcon =  <BsInstagram className="social-icon"/>
+   const githubIcon = <BsGithub className="social-icon"/>
+   const linkedinIcon  = <BsLinkedin className="social-icon"/>            
 
    return(
       <>
