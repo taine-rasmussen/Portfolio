@@ -31,6 +31,14 @@ const Projects = () => {
          tags: ['React.js', 'RapidAPI', 'Taildwindcss'],
          github: 'https://github.com/taine-rasmussen/not-google',
          image: 'oogle.png',
+      },
+      {
+         id: 4,
+         title: 'Candy Crush Clone',
+         about: 'A clone of the classic puzzle game Candy Crush. Players create matches of 3 or 4 coloured candy pieces. Players swap pieces either vertically or horizontally and once a match is made, the candy disappears, causing the surrounding pieces of candy to fall into the empty spaces.',
+         tags: ['React.js', 'Stackoverflow...'],
+         github: 'https://github.com/taine-rasmussen/not-candy-crush',
+         image: 'candyCrush.png',
       }
    ]
 
