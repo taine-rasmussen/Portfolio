@@ -11,6 +11,15 @@
   padding: 8px 0px;
 }
 
+.project-card-title {
+  display: flex;
+  justify-content: center;
+  color: var(--light);
+}
+
+.project-card-info {
+}
+
 @media only screen and (max-width: 720px) {
   .project-card-image {
     width: 70%;
