@@ -31,11 +31,13 @@ const ProjectCard = ({ project }) => {
                      </div>
                   )
                })}
-            <div className="footer-btn">
-               <button>
-                  <AiFillGithub /> Github repo
-               </button>
             </div>
+            <div className="footer-btn">
+               <a href={project.github} target="_blank">
+                  <button>
+                     <AiFillGithub /> Github repo
+                  </button>
+               </a>
             </div>
          </div>
 
