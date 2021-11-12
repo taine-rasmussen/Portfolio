@@ -35,6 +35,7 @@
 .project-card-footer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer-tags {
@@ -42,7 +43,7 @@
   flex-direction: row;
 }
 
-.footer.btn {
+.footer-btn {
 }
 
 .project-card-tag {
