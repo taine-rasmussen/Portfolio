@@ -9,6 +9,48 @@
   border-radius: 10px;
   margin: 16px 0px;
   padding: 8px 0px;
+  flex-wrap: wrap;
+}
+
+.project-card-title {
+  display: flex;
+  justify-content: center;
+  color: var(--light);
+}
+
+.project-card-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card-info {
+  width: 50%;
+}
+
+.project-card-info img {
+  width: 400px;
+  height: 250px;
+}
+
+.project-card-footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer.btn {
+}
+
+.project-card-tag {
+  background-color: var(--muted);
+  width: max-content;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px 8px;
 }
 
 @media only screen and (max-width: 720px) {
