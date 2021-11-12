@@ -17,7 +17,18 @@
   color: var(--light);
 }
 
+.project-card-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .project-card-info {
+  width: 50%;
+}
+
+.project-card-info img {
+  width: 400px;
+  height: 250px;
 }
 
 @media only screen and (max-width: 720px) {
