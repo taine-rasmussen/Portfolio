@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => {
          </div>
 
          <div className="project-card-footer-container">
-            <div className="footer-btns">
+            <div className="footer-tags">
                {project.tags.map((item, index) => {
                   return(
                      <div className="project-card-tag" key={index}>
@@ -31,8 +31,14 @@ const ProjectCard = ({ project }) => {
                      </div>
                   )
                })}
+            <div className="footer-btn">
+               <button>
+                  <AiFillGithub /> Github repo
+               </button>
+            </div>
             </div>
          </div>
+
       </div>
    )
 }
