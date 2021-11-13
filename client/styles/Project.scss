@@ -46,7 +46,18 @@
   flex-direction: row;
 }
 
-.footer-btn {
+.footer-btn button {
+  background-color: var(--muted);
+  border-radius: 5px;
+  border: 1px solid var(--muted);
+  padding: 8px;
+  margin: 8px 8px;
+  font-size: 1rem;
+}
+
+.footer-btn button:hover {
+  color: var(--bright);
+  transform: scale(1.05);
 }
 
 .project-card-tag {
