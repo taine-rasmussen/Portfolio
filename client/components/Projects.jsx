@@ -27,7 +27,7 @@ const Projects = () => {
       {
          id: 3,
          title: 'Bug Tracker',
-         about: 'Track and manage tickets across your projects. Built using React, Firebase Auth and Firestore. Login, add proecjts, add tickets with priority, view comments and manage your workload ',
+         about: 'Track and manage tickets across your projects. Built using React, Firebase Auth and Firestore. Login, add proecjts, add tickets with priority, create/view comments and manage your workload ',
          tags: ['React.js', 'Firebase Auth', 'Firestore'],
          github: 'https://github.com/taine-rasmussen/bug-tracker',
          image: 'bug-tracker.png',
