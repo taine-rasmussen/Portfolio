@@ -5,69 +5,78 @@
 }
 
 .project-card-container {
-  border: 4px solid var(--bright);
-  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
   margin: 16px 0px;
   padding: 8px 0px;
-  flex-wrap: wrap;
-  box-shadow: var(--muted) 2px 1px 16px 3px;
-  width: 80%;
 }
 
-.project-card-title {
-  display: flex;
-  justify-content: center;
-  color: var(--light);
-  font-size: 1.4rem;
-}
-
-.project-card-info-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 16px 16px;
-  align-items: center;
+.project-card-image {
+  width: 35%;
+  border-radius: 4px;
+  margin-left: 2rem;
 }
 
 .project-card-info {
-  width: 50%;
+  margin-right: 24px;
+  // border-bottom: 2px solid var(--bright);
 }
 
-.project-card-info img {
-  width: 400px;
-  height: 250px;
+.project-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--light);
 }
 
-.project-card-footer-container {
+.project-card-tag-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.footer-tags {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-btn button {
-  background-color: var(--muted);
-  border-radius: 5px;
-  border: 1px solid var(--muted);
-  padding: 8px;
-  margin: 8px 8px;
-  font-size: 1rem;
-}
-
-.footer-btn button:hover {
-  color: var(--bright);
-  transform: scale(1.05);
+  max-width: 60%;
+  flex-wrap: wrap;
 }
 
 .project-card-tag {
+  padding: 4px 8px;
   background-color: var(--muted);
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 35px;
+  color: var(--bright);
+  text-shadow: #000 0.7px 1px;
+}
+
+.project-card-link-container {
+  margin-top: 6px;
+  display: flex;
+}
+
+.project-card-link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: max-content;
-  padding: 8px;
-  border-radius: 5px;
-  margin: 8px 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-right: 6px;
+  color: var(--muted);
+}
+
+.project-card-link-btn:hover {
+  border-bottom: 2px solid var(--muted);
+  padding-bottom: 2px;
+}
+
+.project-card-link-btn i {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.project-card-link {
+  text-decoration: none;
+  color: #000;
 }
 
 @media only screen and (max-width: 720px) {
