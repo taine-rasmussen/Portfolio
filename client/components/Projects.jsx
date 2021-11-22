@@ -25,14 +25,6 @@ const Projects = () => {
          image: 'chat-app.png',
       },
       {
-         id: 3,
-         title: 'Bug Tracker',
-         about: 'Track and manage tickets across your projects. Built using React, Firebase Auth and Firestore. Login, add proecjts, add tickets with priority, view comments and manage your workload ',
-         tags: ['React.js', 'Firebase Auth', 'Firestore'],
-         github: 'https://github.com/taine-rasmussen/bug-tracker',
-         image: 'bug-tracker.png',
-      },
-      {
          id: 4,
          title: 'Oogle',
          about: 'A google clone built using React, Tailwindcss and RapidAPI. Users can search the web in dark or light mode viewing results and images',
